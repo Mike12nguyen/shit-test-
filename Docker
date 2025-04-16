@@ -1,0 +1,4 @@
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:kali-version-e419ea97
+
+# Expose VNC port for browser access
+EXPOSE 6901
