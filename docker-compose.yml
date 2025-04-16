@@ -1,0 +1,8 @@
+version: '3'
+services:
+  kali-vnc:
+    image: ghcr.io/linuxserver/baseimage-kasmvnc:kali-version-e419ea97
+    container_name: kali-vnc
+    ports:
+      - "6901:6901"  # Expose the port to access VNC in the browser
+    restart: always
